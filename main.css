@@ -6,7 +6,7 @@
     font-family: "Open Sans",
     sans-serif; 
     font-size: 20px;
-    color: #444;
+    color: #000000;
     text-align: center;
     line-height: 1.5;
   }
@@ -14,21 +14,28 @@
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: #FEFFFE ;
+    color:#000000 ;
   }
   
   nav {
     position: fixed;
+    text-align:right;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
   }
+  footer{
+      text-align:right;
+  }
   
   
   
   header {
-    padding: 5% 0;
+    text-align: left;
+    padding: 2% 0;
+    color:#750D37
     
   }
   
@@ -36,14 +43,12 @@
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
+    background-color: #E5FCF5;
+  }
+  .side-nav{
+      background-color:#B3DEC1;
   }
   
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
-  
-
 
 
 
@@ -55,3 +60,9 @@ img{
     height:200px;
     width:400px;
 }
+/* color scheme
+#000000 black
+#FEFFFE  white
+#E5FCF5 light-blue
+#B3DEC1 olive-green
+#750D37 opitional marron*/
