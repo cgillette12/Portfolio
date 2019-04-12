@@ -74,12 +74,12 @@ a:hover{
       margin-left:50px;
   }
 
-  .Bio {
+   .Bio { 
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     justify-content: center;
-    text-align: left;
+    text-align: left; 
     margin-left: 93px;
     margin-right: 50px;
 }
@@ -143,6 +143,35 @@ ul{
     
 img {margin: 0 auto; width: 40%; height: 30%;}
 }
+@media only screen and (max-width:870px){
+    img {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+        padding-left:10px;
+        height: 500px;
+        width: 400px;
+    }
+    section {
+        display:block;
+        min-height: 200px;
+        margin-bottom: 35px;
+        text-align: left;
+      }
+    .button{
+        display: flex;
+        float:center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left:50%;
+        padding:10;
+        margin-top:25px;
+        flex:1;
+      }
+      li{
+        display: inline;
+    }
+}
 @media screen and (max-width: 600px) {
     .row a:not(:first-child) {display: none;}
     .row a.icon {
@@ -164,6 +193,32 @@ img {margin: 0 auto; width: 40%; height: 30%;}
       display: block;
       text-align: left;
     }
+    .Bio {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: flex-start;
+        text-align: left;
+        margin-left: 93px;
+        margin-right: 50px;
+    }
+    img {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+        padding-left:10px;
+        height: 500px;
+        width: 400px;
+    }
+    section {
+        display:block;
+        min-height: 200px;
+        margin-bottom: 35px;
+        text-align: left;
+      }
+      li{
+          display: inline;
+      }
   }
   
 /* color scheme
