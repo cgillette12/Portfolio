@@ -33,19 +33,18 @@ a:hover{
     padding-left:50px;
     color:#4A1942;
     list-style: none;
-
+    flex:1;
   }
 
   footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 50px;
     padding-left:50px;
     color:#4A1942;
     list-style: none;
-    align-items: center;
-    
   } 
   
   .nav-container{
