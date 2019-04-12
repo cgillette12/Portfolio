@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;
-  }
+    text-decoration: none;
+    list-style: none;
+}
   
   body {
     font-family: "Open Sans",
@@ -20,6 +21,8 @@
     padding-right: 50px;
     padding-left:50px;
     color:#000000;
+    text-decoration: none;
+    list-style: none;
 
   }
   
@@ -31,10 +34,10 @@
   }
 
   footer {
-    margin-left:25px;
-    margin-right:25px;
+    padding-left:25px;
+    padding-right:25px;
     padding-top:15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   } 
   
   .nav-container{
@@ -51,6 +54,7 @@
     
   }
   h1{
+    margin-top: 35px;
       margin-left:50px;
   }
   .Bio {
@@ -67,8 +71,9 @@
   section {
     display:flex;
     min-height: 200px;
-    padding: 4% 0;
+    padding: 3% 0;
     margin-bottom: 35px;
+    text-align: left;
   }
   .side-nav{
       background-color:#4A1942;
@@ -76,13 +81,6 @@
       min-height: 15px;
       border-radius: 4px;
   }
-  .project-list{
-      display:flex;
-      margin-left:50px;
-  }
-  
-
-
 
   img {
     display: flex;
@@ -95,6 +93,8 @@
 .bookmark-img{
     height:200px;
     width:400px;
+    padding-right:25px;
+    margin-right:15px;
 }
 /* color scheme
 #000000 black
