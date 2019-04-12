@@ -171,6 +171,10 @@ img {margin: 0 auto; width: 40%; height: 30%;}
       li{
         display: inline;
     }
+    img{
+     width: 350px;
+
+    }
 }
 @media screen and (max-width: 600px) {
     .row a:not(:first-child) {display: none;}
@@ -208,7 +212,7 @@ img {margin: 0 auto; width: 40%; height: 30%;}
         margin-left: 50px;
         padding-left:10px;
         height: 500px;
-        width: 400px;
+        width: 350px;
     }
     section {
         display:block;
