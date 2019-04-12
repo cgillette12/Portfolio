@@ -32,23 +32,20 @@ a:hover{
     padding-right: 50px;
     padding-left:50px;
     color:#4A1942;
-    text-decoration: none;
     list-style: none;
 
   }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
 
   footer {
-    padding-left:25px;
-    padding-right:25px;
-    padding-top:15px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left:50px;
+    color:#4A1942;
+    list-style: none;
+    align-items: center;
+    
   } 
   
   .nav-container{
@@ -68,6 +65,7 @@ a:hover{
     margin-top: 35px;
       margin-left:50px;
   }
+
   .Bio {
     display: flex;
     flex-direction: column;
@@ -89,6 +87,7 @@ a:hover{
   .side-nav{
       background-color:#4A1942;
       padding:1% 0;
+      width:100%;
       min-height: 15px;
       border-radius: 4px;
   }
@@ -132,6 +131,26 @@ a:hover{
 ul{
     color:#4A1942;
 }
+@media only screen and (max-width: 1000px) {
+    .image {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    #bio, #resume {width: 100%;}
+    img {margin: 0 auto; width: 40%; height: 30%;}
+    #portfolio {
+      width: 100%;
+      margin-top: 50px;
+    }
+    ul.code>li {display: block;}
+  /*  ul.links {padding: 0; text-align: center; margin-left: auto; margin-right: auto; margin-bottom: 10px;}*/
+    div.name {text-align: center; display: block; font-size: 20px;}
+  /*  .navbar .links {float: none; margin-top: 5px;}*/
+   /* .navbar .links li {text-align: right; margin: 0 auto; display: block; padding: 5px; border: 1px solid white;}*/
+    .padding {padding-top: 20px;}
+  }
+  
 /* color scheme
 #000000 black
 #FEFFFE  white
