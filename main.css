@@ -14,7 +14,10 @@
     margin:0;
   }
  
-
+  .email{
+      text-decoration: none;
+      color:#4A1942;
+  }
 a:visited {
     color: inherit;
 }
