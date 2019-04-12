@@ -14,7 +14,7 @@
     margin:0;
   }
  
-  a{
+  .nav-tag{
       text-decoration: none;
       color:#4A1942;
   }
@@ -40,12 +40,16 @@ a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-right: 50px;
-    padding-left:50px;
-    color:#4A1942;
+    justify-content: center;
+    font-size: 14px;
+    color:#FEFFFE;
+    background-color: #4A1942;
     list-style: none;
   } 
+  .foot-tag{
+    text-decoration: none;
+    color:#FEFFFE;
+  }
   
   .nav-container{
     position:fixed;
@@ -131,28 +135,14 @@ ul{
     color:#4A1942;
 }
 @media only screen and (max-width: 1000px) {
-    .image {
-      display: block;
-      margin-bottom: 10px;
-      width: 100%;
-    }
-    #bio, #resume {width: 100%;}
-    img {margin: 0 auto; width: 40%; height: 30%;}
-    #portfolio {
-      width: 100%;
-      margin-top: 50px;
-    }
-    ul.code>li {display: block;}
-  /*  ul.links {padding: 0; text-align: center; margin-left: auto; margin-right: auto; margin-bottom: 10px;}*/
-    div.name {text-align: center; display: block; font-size: 20px;}
-  /*  .navbar .links {float: none; margin-top: 5px;}*/
-   /* .navbar .links li {text-align: right; margin: 0 auto; display: block; padding: 5px; border: 1px solid white;}*/
-    .padding {padding-top: 20px;}
-  }
+    
+img {margin: 0 auto; width: 40%; height: 30%;}
+}
   
 /* color scheme
 #000000 black
 #FEFFFE  white
 #E5FCF5 light-blue
 #B3DEC1 olive-green
-#750D37 opitional marron*/
+#750D37 opitional marron
+*/
