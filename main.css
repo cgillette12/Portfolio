@@ -36,7 +36,12 @@ a:hover{
     flex:1;
     overflow: hidden;
   }
-  .icon{
+  .row a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .row .icon{
       display: none;
       color:#4A1942;
   }
@@ -185,15 +190,15 @@ img {margin: 0 auto; width: 40%; height: 30%;}
   }
   
   @media screen and (max-width: 600px) {
-    .row{position: relative;}
-    .row .icon {
+    .row.responsive{position: relative;}
+    .row.responsive.icon {
       position: absolute;
       right: 0;
       padding-right:30px;
       top: 0;
     }
-    .row a {
-      float: none;
+    .row.responsive a {
+      float: left;
       display: block;
       text-align: left;
     }

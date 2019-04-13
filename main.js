@@ -7,6 +7,14 @@ function applicationButton(){
     
   });
 }
+function toggleNav(){
+  $('.icon').on('click',function(event){
+    let finder = $(event.target).closest('nav');
+    finder.toggleClass('responsive');
+    console.log(finder);
+  });
+}
 $(function(){
   applicationButton();
+  toggleNav();
 });
