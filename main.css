@@ -198,15 +198,16 @@ img {margin: 0 auto; width: 40%; height: 30%;}
       top: 0;
     }
     .row.responsive a {
-      float: left;
+      float: none;
       display: block;
       text-align: left;
     }
-    .row {
+    .row.responsive{
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
     }
+    
     .Bio {
         display: flex;
         flex-direction: row;
